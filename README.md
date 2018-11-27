@@ -2,7 +2,7 @@
 
 ## Prerequisites
 Two files must be added to this repository in order to successfully run the chatbot.
-They both must be placed in the root folder of the project.
+They both must be placed in the root folder of the project. Two demo files that contain the structure were inserted as a reference.
 
 #### fb_credentials.yml
 The file should be as follows:
