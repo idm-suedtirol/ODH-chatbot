@@ -1,0 +1,6 @@
+models/
+/api_credentials.txt
+/fb_credentials.yml
+/__pycache__
+*/__pycache__/
+/.vscode

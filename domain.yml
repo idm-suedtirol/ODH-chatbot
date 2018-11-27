@@ -1,0 +1,111 @@
+actions: 
+  - utter_greet
+  - utter_bot_presentation
+  - utter_default
+  - utter_bye
+  - utter_thanks
+  - action_search_restaurants
+  - utter_starting_search
+  - utter_ask_cuisine
+  - utter_ask_city
+  - utter_ask_city_oos
+  - utter_what_help
+  - action_help
+  - utter_respond_compliment
+
+intents:
+  - default 
+  - greet
+  - bye
+  - thanks
+  - request_restaurant
+  - inform_city
+  - inform_cuisine
+  - request_help
+  - give_help_type
+  - out_of_scope
+  - compliment
+  - affirm
+  - deny
+
+entitites:
+  - restaurant
+  - cuisine
+  - city
+  - help_type
+
+slots:
+  restaurant_name:
+    type: text
+  cuisine:
+    type: text
+  city:
+    type: text
+  requested_slot:
+    type: unfeaturized
+  help_type:
+    type: categorical
+    values:
+    - search
+    - tellmemore
+    - nevermind
+
+templates:
+  utter_default:
+    - text: "Wait...what?"
+    - text: "I didn't understand, could you rephrase that?"
+    - text: "I'm afraid I didn't get that, but do you wish to find a restaurant maybe?"
+  utter_bye: 
+    - text: "Until next time!"
+    - text: "Bye bye!"
+    - text: "Bye"
+    - text: "Goodbye!"
+  utter_greet: 
+    - text: "Hello there!"
+    - text: "Hi"
+    - text: "Greetings!"
+  utter_thanks: 
+    - text: "My pleasure."
+    - text: "No worries."
+    - text: "Anytime."
+  utter_bot_presentation:
+    - text: "My name is Open Data Hub and I'm here to help you find a restaurant in South Tyrol. I only speak English, but I'm trying to learn and memorise other languages.\nEnough about me, tell me where and what you would like to eat and I'll try to find some restaurants for you."
+  utter_ask_cuisine:
+    - text: "What would you like to eat?"
+    - text: "Sure, what do you feel like eating?"
+  utter_ask_city:
+    - text: "Where would you like to eat?"
+    - text: "In which city should I look for restaurants?"
+  utter_ask_city_oos:
+    - text: "I can't really do much with that. Could you please give me the city where you would like to eat?"
+    - text: "I need to know in which city you want to eat in order to help you."
+  utter_what_help:
+    - text: "What can I help you with?"
+      buttons:
+      - title: "Finding restaurants"
+        payload: '/give_help_type{"help_type": "search"}'
+      - title: "More about ODH"
+        payload: '/give_help_type{"help_type": "tellmemore"}'
+      - title: "Nevermind"
+        payload: '/give_help_type{"help_type": "nevermind"}'
+    - text: "Need help?"
+      buttons:
+      - title: "Finding restaurants"
+        payload: '/give_help_type{"help_type": "search"}'
+      - title: "More about ODH"
+        payload: '/give_help_type{"help_type": "tellmemore"}'
+      - title: "Nevermind"
+        payload: '/give_help_type{"help_type": "nevermind"}'
+    - text: "Looks like you might need some help"
+      buttons:
+      - title: "Finding restaurants"
+        payload: '/give_help_type{"help_type": "search"}'
+      - title: "More about ODH"
+        payload: '/give_help_type{"help_type": "tellmemore"}'
+      - title: "Nevermind"
+        payload: '/give_help_type{"help_type": "nevermind"}'
+  utter_respond_compliment:
+    - text: "Oh stop it you :)"
+    - text: "Thanks, you rock too!"
+    - text: "Thank you!"
+    - text: ":)"
