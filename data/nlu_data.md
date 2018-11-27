@@ -1,0 +1,603 @@
+## intent:bye <!--- The label of the intent --> 
+- Bye
+- bye
+- Goodbye
+- goodbye
+- See you later
+- see you
+- Bye bot
+- bye bot
+- goodbye bot
+- Goodbye friend
+- bye for now
+- later
+- gotta go
+- Gotta go
+- goodnight
+- Goodnight
+- night
+- have a nice day
+- i'm off
+- I'm off
+- we'll speak soon
+- Talk to you soon
+- talk to you soon
+- talk soon
+- thanks and bye
+- thank you, bye
+- bye and thank you
+- byee
+
+## intent:greet
+- Hi
+- hi
+- hii
+- hiii
+- Hey
+- hey
+- Hi bot
+- hi bot
+- Hey bot
+- hey bot
+- Hello
+- hello
+- Good morning
+- good morning bot
+- good afternoon
+- hi again
+- hi pal!
+- hi there
+- hey dude
+- greetings
+- Greetings
+- hello everybody
+- hello, is anybody there?
+- hello robot
+- howdy
+- Howdy
+- Robot?
+- Bot?
+- bot?
+- what's up
+- what's up?
+
+## intent:thanks
+- Thanks
+- thanks
+- Thank you
+- thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+- nice thanks
+- thanks, you saved me
+- Nice one, thank you
+
+## intent:request_help
+- help
+- Help
+- Help me
+- help me bot
+- I need help
+- Help me out
+- Help me out here
+- What can I do here?
+- Possibilities
+- what should I do?
+- what to do
+- how do I proceed
+- what should I do
+- Need help
+- Hey bot, I need your help
+- Can you help me?
+- Could you help me bot
+- hey help please
+- hey, help please!
+- help pls
+- Some help would be appreciated
+- I don't know what to do
+- how to go on
+- How to?
+- What do I do
+
+## intent:request_restaurant
+- ok, let's search
+- I would like to find a restaurant
+- I need to find a restaurant
+- Finding a restaurant
+- finding a restaurant
+- finding restaurant
+- find restaurants
+- Find a restaurant
+- find a restaurant
+- find a restaurant close to me
+- show me some restaurants
+- restaurant
+- Restaurant
+- restaurants
+- Restaurants
+- I want to eat [chinese](cuisine) food
+- I want to eat [pizza](cuisine) in [Bolzano](city)
+- I would like to eat something in [Merano](city)
+- Tell me where can I eat [sushi](cuisine) in [Bolzano](city)
+- i want to find a restaurant in [laives](city)
+- i want to eat in [egna](city)
+- eat in [bolzano](city) tonight.
+- in [mezzocorona](city) today
+- Eating [traditional](cuisine) food in [Vipiteno](city)
+- eating food in [bolzano](city)
+- Restaurants in [Merano](city)
+- restaurants close to [Lana](city)
+- find restaurants in [Bolzano](city)
+- I would like to find a restaurant in [Vipiteno](city)
+- I would like to find a restaurant to eat [pizza](cuisine)
+- Find a [sushi](cuisine) restaurant
+- [French](cuisine) restaurants
+- [Chinese](cuisine) restaurants in [Bolzano](city)
+- I would like some [pasta](cuisine)
+- Some [pasta](cuisine) would be nice
+- I'm hungry
+- hungry
+- Hungry
+- I'm hungry for some [knodel](cuisine)
+- eat
+- Eat
+- eating [gulasch](cuisine) in [Laives](city)
+
+## intent:inform_city
+- in [Merano](city)
+- in the city of [Merano](city)
+- [Sarentino](city)
+- [Sarntal](city)
+- [Laives](city)
+- [leifers](city)
+- [Castelbello-Ciardes](city)
+- [Kastelbell-Tschars](city)
+- [Racines](city)
+- [Ratschings](city)
+- [Ora](city)
+- [Auer](city)
+- [Naturno](city)
+- [Naturns](city)
+- [Silandro](city)
+- [Schlanders](city)
+- [Varna](city)
+- [Vahrn](city)
+- [Aldino](city)
+- [Aldein](city)
+- [Sluderno](city)
+- [Schluderns](city)
+- [S. Genesio Atesino](city)
+- [Jenesien](city)
+- [Cermes](city)
+- [Tscherms](city)
+- [Martello](city)
+- [Martell](city)
+- [Campo di Trens](city)
+- [Freienfeld](city)
+- [Val di Vizze](city)
+- [Pfitsch](city)
+- [Laces](city)
+- [Latsch](city)
+- [Stelvio](city)
+- [Stilfs](city)
+- [Falzes](city)
+- [Pfalzen](city)
+- [Senale-S. Felix](city)
+- [U.L. Frau i.W.-St. Felix](city)
+- [Velturno](city)
+- [Feldthurns](city)
+- [Senales](city)
+- [Schnals](city)
+- [Anterivo](city)
+- [Altrei](city)
+- [Rodengo](city)
+- [Rodeneck](city)
+- [S. Lorenzo di Sebato](city)
+- [St. Lorenzen](city)
+- [Monguelfo-Tesido](city)
+- [Welsberg-Taisten](city)
+- [Glorenza](city)
+- [Glurns](city)
+- [Fortezza](city)
+- [Franzensfeste](city)
+- [Tesimo](city)
+- [Tisens](city)
+- [Predoi](city)
+- [Prettau](city)
+- [Verano](city)
+- [Vöran](city)
+- [Lasa](city)
+- [Laas](city)
+- [Proves](city)
+- [Proveis](city)
+- [Caines](city)
+- [Kuens](city)
+- [Rio di Pusteria](city)
+- [Mühlbach](city)
+- [Brennero](city)
+- [Brenner](city)
+- [Barbiano](city)
+- [Barbian](city)
+- [Nalles](city)
+- [Nals](city)
+- [San Pancrazio](city)
+- [St. Pankraz](city)
+- [Postal](city)
+- [Burgstall](city)
+- [Gargazzone](city)
+- [Gargazon](city)
+- [Andriano](city)
+- [Andrian](city)
+- [Perca](city)
+- [Percha](city)
+- [Villandro](city)
+- [Villanders](city)
+- [Cortaccia](city)
+- [Kurtatsch](city)
+- [Trodena](city)
+- [Truden](city)
+- [Magrè](city)
+- [Margreid](city)
+- [Bronzolo](city)
+- [Branzoll](city)
+- [Salorno](city)
+- [Salurn](city)
+- [Vadena](city)
+- [Pfatten](city)
+- [Lauregno](city)
+- [Laurein](city)
+- [Ponte Gardena](city)
+- [Waidbruck](city)
+- [Funes](city)
+- [Villnöß](city)
+- [Egna](city)
+- [Neumarkt](city)
+- [Cortina](city)
+- [Kurtinig](city)
+- [Fiè allo Sciliar](city)
+- [Völs am Schlern](city)
+- [Lagundo](city)
+- [Algund](city)
+- [Bolzano](city)
+- [Bozen](city)
+- [Bressanone](city)
+- [Brixen](city)
+- [Brunico](city)
+- [Bruneck](city)
+- [Nova Ponente](city)
+- [Deutschnofen](city)
+- [Appiano](city)
+- [eppan](city)
+- [gais](city)
+- [Gais](city)
+- [Curon Venosta](city)
+- [Graun im Vinschgau](city)
+- [Valle di Casies](city)
+- [gsies](city)
+- [Terlano](city)
+- [terlan](city)
+- [Avelengo](city)
+- [Hafling](city)
+- [Caldaro](city)
+- [Kaltern](city)
+- [Chienes](city)
+- [Kiens](city)
+- [Laion](city)
+- [Lajen](city)
+- [Lana](city)
+- [lana](city)
+- [Luson](city)
+- [Lüsen](city)
+- [Malles](city)
+- [Mals](city)
+- [Marlengo](city)
+- [Marling](city)
+- [Merano](city)
+- [Meran](city)
+- [Montagna](city)
+- [Montan](city)
+- [Moso in Passiria](city)
+- [Moos in Passeier](city)
+- [Meltina](city)
+- [Mölten](city)
+- [Selva die Molini](city)
+- [Mühlwald](city)
+- [Naz-Sciaves](city)
+- [Natz-Schabs](city)
+- [villabassa](city)
+- [Niederdorf](city)
+- [Valdaora](city)
+- [Olang](city)
+- [Parcines](city)
+- [Partschins](city)
+- [Plaus](city)
+- [Plaus](city)
+- [Prato allo Stelvio](city)
+- [Prad am Stilfser Joch](city)
+- [Braies](city)
+- [Prags](city)
+- [Rifiano](city)
+- [Riffian](city)
+- [Renon](city)
+- [Ritten](city)
+- [Campo Tures](city)
+- [Sand in Taufers](city)
+- [Scena](city)
+- [Schenna](city)
+- [Sesto](city)
+- [Sexten](city)
+- [San Leonardo](city)
+- [St. Leonhard](city)
+- [San Martino](city)
+- [St. Martin](city)
+- [San Martino](city)
+- [S.Cristina Val Gardena](city)
+- [St.Christina in Gröden](city)
+- [vipiteno](city)
+- [Sterzing](city)
+- [tubre](city)
+- [Taufers](city)
+- [Tirolo](city)
+- [Tirol](city)
+- [Dobbiaco](city)
+- [Toblach](city)
+- [Vandoies](city)
+- [Vintl](city)
+- [Nova Levante](city)
+- [Welschnofen](city)
+- [Selva](city)
+- [Wolkenstein](city)
+- [Terento](city)
+- [Terenten](city)
+- [Castelrotto](city)
+- [Kastelruth](city)
+- [Tires](city)
+- [Tiers](city)
+- [La Val](city)
+- [Badia](city)
+- [Corvara](city)
+- [Marebbe](city)
+- [Enneberg](city)
+- [San Martino in Badia](city)
+- [St. Martin in Thurn](city)
+- [S. Candido](city)
+- [Innichen](city)
+- [Cornedo all'Isarco](city)
+- [karneid](city)
+- [Valle Aurina](city)
+- [Ahrntal](city)
+- [rasun anterselva](city)
+- [Rasen-Antholz](city)
+- [Chiusa](city)
+- [Klausen](city)
+- [Termeno](city)
+- [Tramin](city)
+- [ultimo](city)
+- [Ulten](city)
+- [Ortisei](city)
+- [St.Ulrich](city)
+- [Bolzano](city) [Via Volta 13](address)
+- [Bolzano](city) [Via Trieste](address)
+- [merano](city) [via indirizzo](address)
+- [Bolzano](city) in [Via Trieste](address)
+- In [brunico](city) [via indirizzo 12](address)
+- [bressanone](city)
+- in [Merano](city) close to [via del ristorante](address)
+
+## intent:inform_cuisine
+- [Chinese](cuisine)
+- [chinese](cuisine)
+- [thai](cuisine)
+- [spatzle](cuisine)
+- [Thai](cuisine) food
+- [Asian](cuisine)
+- [asian](cuisine) food
+- [Japanese](cuisine)
+- [sushi](cuisine)
+- [Pizza](cuisine)
+- [pizza](cuisine)
+- [french](cuisine)
+- [traditional](cuisine)
+- [Traditional](cuisine)
+- [Italian](cuisine)
+- [italian](cuisine) food
+- [Pasta][cuisine]
+- [pasta](cuisine)
+- [meat](cuisine)
+- [Meat](cuisine)
+- [vegetarian](cuisine) food
+- [Vegan](cuisine) food
+- [vegan](cuisine)
+- [South Tirolean](cuisine)
+- [typical](cuisine)
+- [typical](cuisine) food
+- [canederli](cuisine)
+- [gulasch](cuisine)
+- [Speck](cuisine)
+- [traditional](cuisine) food
+- [local](cuisine) type food
+- [egna](city) [pizza](cuisine)
+- [brunico](city) [sushi](cuisine)
+- [spatzle](cuisine) [bressanone](city)
+- [salorno](city) [kebab](cuisine)
+- [german](cuisine)
+- [german](cuisine) food
+- [german](cuisine) kitchen
+- [knodel](cuisine)
+- [Spatzle](cuisine)
+- [lasagna](cuisine)
+- [Spätzle](cuisine)
+- [knödel](cuisine)
+
+##intent:out_of_scope
+- asd
+- please help with my ice cream it's dripping
+- no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- i want a non dripping ice cream
+- i need a drink
+- give me something
+- need a laptop charger
+- hey lil mama let me whisper in your ear
+- someone call the police i think the bot died
+- are you dead?
+- show me a picture of a chicken
+- neither
+- you're a loser lmao
+- i don't care!!!!
+- i do not care how are you
+- again?
+- oh wait i gave you my work email address can i change it?
+- hang on let me find it
+- stop it, i do not care!!!
+- really? you're so touchy?
+- how come?
+- I changed my mind
+- what?
+- did i break you
+- I don't wanna tell you
+- cmon
+- COME ON
+- shut up
+- shut up you stupid bot
+- You are an idiot
+- idiot
+- wtf
+- you already have that
+- this is a really frustrating experience
+- no stop
+- shit bot
+- do you want to marry me?
+- I want to marry you
+- i wanna party
+- shitmuncher
+-  silly bot
+- you are a stupid bot
+- i hate you
+- Can I ask you questions first?
+- is it a wasteland full of broken robot parts?
+- i can't deal with your request
+- are you vegan
+- do you sell vacuum robots?
+- i want to buy a roomba for my grandson
+- and make chicken noises into the phone
+- is barbara still married to you
+- what's your wife doing this weekend
+- how are the kids
+- you're rather dull
+- personal or work?
+- tell me a joke
+- what else?
+- I already told you! I'm a shitmuncher
+- who is your favourite robot?
+- a tamed mouse will arrive at your doorstep in the next couple of days
+- you will know it from the single red rose it carries between its teeth
+- i will tame a mouse for you
+- and your REST API doesn't work
+- i told you already
+- better than you
+- oh my god, not again!
+- lol
+- why do you need that?
+- is that any of your business
+- common, just try
+- you are annoying
+- kannst du auch deutsch?
+- it's a pity
+- i want more of you in my life!
+- the one that is better than you
+- you suck
+- bots are bad
+- i dont like bots
+- do you have a phone number?
+- where do you live?
+- how are the cats doing?
+- but I just told you that :(
+- Why don’t you answer?
+- asdasdsad
+- dkfsfjoisdf
+- qqwqwwq
+- ijppepwf
+- UUYIOIASD
+- è+12+123+è123
+- [][]¶#@
+- P&/%(&123)
+- AAAAAA
+- asdasdqwe
+- as
+- ouiueqwoe
+- ionv
+- - asdasd
+- ......
+- omg bot
+- you idiot
+- stupid
+- I'm just saying random stuff
+- what is going on here?
+- ?
+- W.T.F
+- leave me alone
+- these are just phrases without sense
+- logic
+- hey bot what is this
+- fuck you bot
+- ur a shitty bot
+- qqq
+- shshshhs
+- bot u suck
+- useless
+- so useless
+- my gosh you don't understand anything
+- shut up
+- gg ez noob
+
+##intent:compliment
+- hahahah
+- ahaha
+- hahahaha
+- lol
+- lel
+- xD
+- you are funny
+- you're funny
+- ur funny
+- hahahaha xD
+- omg u are so nice
+- you're the best
+- best bot ever 
+- why are you so nice?
+- you rock bot
+- i love you
+- I love you
+- Marry me bot
+- :)
+- so cool
+
+##intent:affirm
+- yes
+- Yes
+- ok
+- of course
+- Of Course
+- absolutely
+- yessir
+- yah
+
+##intent:deny
+- no
+- No
+- nope
+- No way
+- nah
+- I don't think so
+- not really
