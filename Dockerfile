@@ -5,7 +5,7 @@ EXPOSE 5002
 SHELL ["/bin/bash", "-c"]
 
 ###	Software requirements install/update
-RUN apt update && apt install -y apt-utils gcc build-essential
+RUN apt-get update && apt-get install -y apt-utils gcc build-essential
 RUN pip install --upgrade pip
 RUN pip install PyHamcrest==1.9.0
 RUN conda update -y conda
@@ -15,7 +15,7 @@ WORKDIR /bot/
 COPY . /bot/
 
 ###	Create virtual environment
-RUN conda create -y -n py36 python=3.6 --name idm-bot --file anaconda_reqs.txt
+RUN conda create -y -n py36 python=3.6 --name idm-bot --file requirements_anaconda.txt
 
 ###	Setting the following environment variables allows to effectively use the
 ###	virtual environment that we just created.
