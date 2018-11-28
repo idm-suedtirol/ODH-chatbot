@@ -26,7 +26,7 @@ ENV CONDA_PREFIX /usr/local/envs/$CONDA_DEFAULT_ENV
 ENV PATH $CONDA_PREFIX/bin:$PATH
 
 ###	Project requirement libraries install
-RUN pip install --ignore-installed -r requirements_testing.txt
+RUN pip install --ignore-installed -r requirements_pip.txt
 
 ###	Train core and nlu (N.B. it is possible not to execute training at every
 ###	build by mounting the models/ folder as an external volume)
