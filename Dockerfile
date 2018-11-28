@@ -15,7 +15,7 @@ WORKDIR /bot/
 COPY . /bot/
 
 ###	Create virtual environment
-RUN conda create -y -n py36 python=3.6 --name idm-bot --file anaconda_reqs.txt
+RUN conda create -y -n py36 python=3.6 --name idm-bot --file requirements_anaconda.txt
 
 ###	Setting the following environment variables allows to effectively use the
 ###	virtual environment that we just created.
@@ -26,7 +26,7 @@ ENV CONDA_PREFIX /usr/local/envs/$CONDA_DEFAULT_ENV
 ENV PATH $CONDA_PREFIX/bin:$PATH
 
 ###	Project requirement libraries install
-RUN pip install --ignore-installed -r requirements_testing.txt
+RUN pip install --ignore-installed -r requirements_pip.txt
 
 ###	Train core and nlu (N.B. it is possible not to execute training at every
 ###	build by mounting the models/ folder as an external volume)
