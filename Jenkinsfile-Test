@@ -12,7 +12,7 @@ pipeline {
                 // sh 'cat "${CHATBOT_FACEBOOK_CREDENTIALS_TEST}" > fb_credentials.yml'
                 // sh 'cat "${CHATBOT_API_CREDENTIALS_TEST}" > api_credentials.txt'
                 sh 'cp fb_credentials.DEMO.yml fb_credentials.yml'
-                sh 'cat api_credentials.DEMO.txt api_credentials.txt'
+                sh 'cp api_credentials.DEMO.txt api_credentials.txt'
             }
         }
         stage('Build') {
