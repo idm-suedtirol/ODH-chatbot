@@ -51,7 +51,7 @@ To make the execution process easier a Makefile is provided in order to eliminat
 Here is the full list of commands in the Makefile, with the description for each one:
 - `train-core`: Performs the training for RASA core, which covers the dialogue. This command should be ran every time you make changes to the stories or domain file, since these files affect the bot-user dialogue (more info [here](https://www.rasa.com/docs/core/policies/))
 - `train-nlu`: Performs NLU training. Should be ran every time you add/remove/change nlu data (more info [here](https://rasa.com/docs/nlu/dataformat/))
-- `run-actions`: Calls the action.py file which contains our custom functionalities and registers those custom actions
+- `run-actions`: Calls the action.py file which contains our custom functionalities and registers those custom actions.
 In this custom action is where the API calls are made and also where we define the bot's response if the user asks for help (more info [here](https://www.rasa.com/docs/core/customactions/))
 - `run-bot`: Runs the bot in the most basic mode (CLI mode)
 - `run-bot-debug`: Runs the bot via CLI and shows debugging logs (very helpful, especially if you are missing files with the credentials)
