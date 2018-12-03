@@ -29,7 +29,7 @@ pipeline {
                     sh 'ssh -o StrictHostKeyChecking=no 63.33.73.203 "rm -rf /var/chatbot/chatbot-$BUILD_ID.tar"'
                     sh 'ssh -o StrictHostKeyChecking=no 63.33.73.203 "docker tag chatbot:$BUILD_ID chatbot:latest"'
                     sh 'ssh -o StrictHostKeyChecking=no 63.33.73.203 "docker stop chatbot || true"'
-                    sh 'ssh -o StrictHostKeyChecking=no 63.33.73.203 "docker run --detach --rm --restart unless-stopped --publish 1001:5002 --name chatbot chatbot:latest"'
+                    sh 'ssh -o StrictHostKeyChecking=no 63.33.73.203 "docker run --detach --restart unless-stopped --publish 1001:5002 --name chatbot chatbot:latest"'
                 }
             }
         }
