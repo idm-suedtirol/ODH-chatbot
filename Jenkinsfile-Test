@@ -1,16 +1,16 @@
 pipeline {
     agent any
 
-    # environment {
-    #     CHATBOT_FACEBOOK_CREDENTIALS_TEST=credentials('chatbot-facebook-credentials-test')
-    #     CHATBOT_API_CREDENTIALS_TEST=credentials('chatbot-api-credentials-test')
-    # }
+    // environment {
+    //     CHATBOT_FACEBOOK_CREDENTIALS_TEST=credentials('chatbot-facebook-credentials-test')
+    //     CHATBOT_API_CREDENTIALS_TEST=credentials('chatbot-api-credentials-test')
+    // }
 
     stages {
         stage('Configure') {
             steps {
-                # sh 'cat "${CHATBOT_FACEBOOK_CREDENTIALS_TEST}" > fb_credentials.yml'
-                # sh 'cat "${CHATBOT_API_CREDENTIALS_TEST}" > api_credentials.txt'
+                // sh 'cat "${CHATBOT_FACEBOOK_CREDENTIALS_TEST}" > fb_credentials.yml'
+                // sh 'cat "${CHATBOT_API_CREDENTIALS_TEST}" > api_credentials.txt'
                 sh 'cp fb_credentials.DEMO.yml fb_credentials.yml'
                 sh 'cat api_credentials.DEMO.txt api_credentials.txt'
             }
