@@ -5,7 +5,7 @@ EXPOSE 5002
 SHELL ["/bin/bash", "-c"]
 
 ###	Software requirements install/update
-RUN apt update && apt install -y apt-utils gcc build-essential
+RUN apt-get update && apt-get install -y apt-utils gcc build-essential
 RUN pip install --upgrade pip
 RUN pip install PyHamcrest==1.9.0
 RUN conda update -y conda
