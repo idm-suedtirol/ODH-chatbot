@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Configure') {
+            steps {
+                sh 'cp fb_credentials.DEMO.yml fb_credentials.yml'
+                sh 'cp api_credentials.DEMO.txt api_credentials.txt'
+            }
+        }
+        stage('Build') {
+            steps {
+               sh 'docker build --tag chatbot:$BUILD_ID --rm --force-rm .'
+            }
+        }
+    }
+    post { 
+        always { 
+            sh 'docker rmi chatbot:$BUILD_ID || true'
+        }
+    }
+}
