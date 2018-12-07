@@ -86,7 +86,7 @@ rasa-core-sdk==0.11.5
 rasa-nlu==0.13.4
 redis==2.10.6
 regex==2018.8.29
-requests==2.18.4
+requests==2.20.1
 rocketchat-API==0.6.22
 ruamel.yaml==0.15.37
 s3transfer==0.1.13
