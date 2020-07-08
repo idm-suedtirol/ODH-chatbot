@@ -1,0 +1,12 @@
+version: "3.4"
+
+services:
+  app:
+    image: ${DOCKER_IMAGE}:${DOCKER_TAG}
+    restart: unless-stopped
+    environment:
+      SERVER_PORT: ${SERVER_PORT}
+      CHATBOT_FACEBOOK_CREDENTIALS_TEST: ${CHATBOT_FACEBOOK_CREDENTIALS_TEST}
+      CHATBOT_API_CREDENTIALS_TEST: ${CHATBOT_API_CREDENTIALS_TEST}
+    ports:
+      - ${SERVER_PORT}:5002
